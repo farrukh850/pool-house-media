@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure Helvetica is available */
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/fonts/Helvetica.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/fonts/Helvetica-Bold.ttf') format('ttf');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  html, body {
+    font-family: 'Helvetica Neue', Helvetica;
+  }
+  * {
+    font-family: 'Helvetica Neue', Helvetica;
+  }
+}

@@ -1,0 +1,28 @@
+/* Prevent page overflow */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Video controls */
+.video-mute-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 37px;
+  z-index: 20;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  padding: 0;
+}
+.video-mute-btn img {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+}
