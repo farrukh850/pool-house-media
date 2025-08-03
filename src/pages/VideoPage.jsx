@@ -36,7 +36,7 @@ function VideoPage() {
       
       {/* Full-width video section */}
       <FullWidthVideo 
-        videoSrc="https://demos.farrukhwaseem.com/pool-house-media/videos/home-video.mp4"
+        videoSrc="https://demos.farrukhwaseem.com/pool-house-media/home-video.mp4"
         thumbnail="/images/video-thumbnails/thumbnail-full-width.jpg"
       />
     </div>
