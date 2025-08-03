@@ -10,7 +10,7 @@ function HomePage({ onTogglePriceGuide }) {
     <div className="slide-animation">
       <HomeHeader onTogglePriceGuide={onTogglePriceGuide} />
       <div className="min-h-screen w-full overflow-hidden ">
-        <FullScreenVideo src="https://demos.farrukhwaseem.com/pool-house-media/home-video.mp4">
+        <FullScreenVideo src="/videos/home-video.mp4">
           <img src="images/logo-white.svg" alt="Homepage Video" className="px-4 lg:px-0" />
         </FullScreenVideo>
       </div>
