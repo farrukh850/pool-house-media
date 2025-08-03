@@ -7,17 +7,17 @@ function VideoPage() {
   const videos = [
     {
       id: 1,
-      src: "/videos/videos-page/video-1.mp4",
+      src: "https://demos.farrukhwaseem.com/pool-house-media/videos-page/video-1.mp4",
       thumbnail: "/images/video-thumbnails/thumbnail-1.png"
     },
     {
       id: 2,
-      src: "/videos/videos-page/video-2.m4v",
+      src: "https://demos.farrukhwaseem.com/pool-house-media/videos-page/video-2.m4v",
       thumbnail: "/images/video-thumbnails/thumbnail-2.png"
     },
     {
       id: 3,
-      src: "/videos/videos-page/video-3.mp4",
+      src: "https://demos.farrukhwaseem.com/pool-house-media/videos-page/video-3.mp4",
       thumbnail: "/images/video-thumbnails/thumbnail-3.png"
     }
   ];
@@ -36,7 +36,7 @@ function VideoPage() {
       
       {/* Full-width video section */}
       <FullWidthVideo 
-        videoSrc="/videos/home-video.mp4"
+        videoSrc="https://demos.farrukhwaseem.com/pool-house-media/home-video.mp4"
         thumbnail="/images/video-thumbnails/thumbnail-full-width.jpg"
       />
     </div>
